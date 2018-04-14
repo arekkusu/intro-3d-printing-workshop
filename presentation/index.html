@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Introduction to 3D printing</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+
+  <body>
+    <div class="reveal"> <div class="slides">
+
+
+<section> 
+<section data-markdown> <textarea data-template>
+## Introduction to 3D printing
+
+![3D printer][3d_printing]
+
+* About me
+  * Alex
+  * arekkusu@r42.ch / alex@r42.ch
+
+[3d_printing]: img/3d_printing.jpg
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Tokyo Hackerspace
+
+![Tokyo Hackerspace][thslogo]
+
+* [Events (Meetup)](https://www.meetup.com/TokyoHackerSpace/)
+* [TokyoHackerspace.org](https://www.tokyohackerspace.org)
+
+[thslogo]: img/thslogo.png
+</textarea> </section>
+</section>
+
+
+<section> 
+<section data-markdown> <textarea data-template>
+
+## 3D Printing
+
+* Create physical object from 3D model
+  * Prototyping
+  * Replacement part / repair
+  * Hobby
+  * Small scale production
+* Developed in the 1980s
+
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Advantage
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Disadvantage
+</textarea> </section>
+</section>
+
+
+
+<section> 
+<section data-markdown> <textarea data-template>
+## Susbtractive vs Additive
+
+* Subtractive Manufacturing
+ * CNC machining
+ * Laser Cutter
+ * Lathe
+
+* Additive Manufacturing
+  * Created by adding material
+    * Usually layer upon layer
+
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Additive Manufacturing
+
+* Material Extrusion
+  * Fused Deposition Modeling / Fused Filament Fabrication
+  * Most 3D printer
+
+* Many other technology
+  * [About Additive Manufacturing](http://www.lboro.ac.uk/research/amrg/about/the7categoriesofadditivemanufacturing/)
+
+</textarea> </section>
+</section>
+
+
+<section> 
+<section data-markdown> <textarea data-template>
+## Extrusion
+
+![(Wikipedia) Illustration of an extruder, to understand how a extruder works and to show how all parts are named.][extruder]
+
+[extruder]: img/extruder_wikipedia.png
+Source: Wikipedia
+
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Material
+
+* Plastic
+  * PLA
+  * ABS
+
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Genral process
+
+![(Wikiepdia) Schematic representation of the 3D printing technique known as Fused Filament Fabrication; a filament a) of plastic material is feeded through a heated moving head b) that melts and extrudes it depositing it, layer after layer, in the desired shape c). A moving platform e) lowers after each layer is deposited. For this kind of technology additional vertical support structures d) are needed to sustain overhanging parts.][fdm1] ![(Wikipedia) Fused deposition modelling (FDM), a method of rapid prototyping: 1 - nozzle ejecting molten material (plastic), 2 - deposited material (modelled part), 3 - controlled movable table][fdm2]
+
+[fdm1]: img/fdm_overview_wikipedia.png
+[fdm2]: img/fdm_layer_wikipedia.png
+
+Source: Wikipedia
+
+</textarea> </section>
+<section data-markdown> <textarea data-template>
+## Pros/Cons
+
+* Affordable printer and material
+* Slow
+* Limited reosolution
+* Detectable layering
+* Limited to plastic / plastic composite
+</textarea> </section>
+</section>
+
+
+<section> 
+<section data-markdown> <textarea data-template>
+## 3D printer parts
+
+* Extruder
+  * Hot end
+  * Print nozle
+  * Filament feed
+* Stepper motor
+* End stop
+* Build platform
+* Controller (extruder/motor...)
+</textarea> </section>
+</section>
+
+<section> 
+<section data-markdown> <textarea data-template>
+## 3D printing flow
+
+* 3D model 
+  * STL
+
+* Slicer 
+  * G-Code
+
+* Printer Firmware
+  * Actual print
+
+</textarea> </section>
+
+<section data-markdown> <textarea data-template>
+## Design
+
+* Many options
+  * Sketchup
+  * OpenSCAD
+  * FreeCAD
+  * Blender
+  * 123D Design
+
+* 3D scanner
+
+</textarea> </section>
+
+<section data-markdown> <textarea data-template>
+## 3D model
+
+* <https://www.thingiverse.com/>
+  * Repository of 3D models
+
+</textarea> </section>
+
+<section data-markdown> <textarea data-template>
+## Slicing
+
+* Converts model into layer / specific instruction
+  * G-code
+
+* Filling pattern honeycombed
+
+* Many parameters / inpact on print
+  * Layer height, speed, retraction...
+
+* Adhesion: Raft / Skirt / Brim ([1](https://ultimaker.com/en/resources/20423-platform-adhesion-cura)) ([2](https://www.simplify3d.com/support/articles/rafts-skirts-and-brims/))
+
+* Slicer: Cura, Slic3r
+
+</textarea> </section>
+</section>
+
+<section> 
+<section data-markdown> <textarea data-template>
+## Cura
+
+* Demo / Hands on
+</textarea> </section>
+</section> 
+
+<section> 
+<section data-markdown> <textarea data-template>
+## 3D printer: spec
+
+* Print volume / surface
+* Print speed (mm/sec)
+* Print tolerance
+* Layer Thickness
+* Usable Filament size
+* Heated Bed
+* ...
+
+</textarea> </section>
+</section>
+
+<section> 
+<section data-markdown> <textarea data-template>
+## THS 3D printer
+
+* Ultimaker original
+* Makerbot Thing-O-Matic
+* Ultimaker Original
+
+</textarea> </section>
+</section> 
+
+<section> 
+<section data-markdown> <textarea data-template>
+## Ressources
+
+* <https://3dprintingindustry.com/3d-printing-basics-free-beginners-guide>
+* <https://en.wikipedia.org/wiki/3D_printing>
+</textarea> </section>
+</section>
+
+
+    </div></div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
