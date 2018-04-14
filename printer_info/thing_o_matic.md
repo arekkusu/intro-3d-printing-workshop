@@ -26,7 +26,6 @@
   * Parser that can output 'x3g' natively
   * Convert standard G-code to 'x3g' (some tool exist)
 
-
 ## DOC/link
 
 * Makerbot

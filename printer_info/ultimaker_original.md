@@ -1,13 +1,13 @@
-# 3D printing SD Card - Ultimaker
+# Ultimaker Original
 
 ## Printer
 
-Maker: Ultimaker
-Model: Ultimaker original
-Detail: Upgraded 3D printed extruder gear 
-Heated Bed: NO
-Firmware: Ultimaker (Official)
-Build volume: 21 x 21 x 20,5 cm
+* Maker: Ultimaker
+* Model: Ultimaker original
+* Detail: Upgraded 3D printed extruder gear 
+* Heated Bed: NO
+* Firmware: Ultimaker (Official)
+* Build volume: 21 x 21 x 20,5 cm
 
 ## Surface and filament
 
