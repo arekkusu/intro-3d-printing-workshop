@@ -1,4 +1,4 @@
-# Introduction to 3D printing
+﻿# Introduction to 3D printing
 
 Material for the "Introduction to 3D printing" workshop.
 
@@ -26,4 +26,4 @@ Are you curious about 3D printing ? Thinking about something you need for your n
 
 * Important to know: No prior knowledge required. Workshop is held in English.
 
-3D printing is a complex subject and this 3h workshop is really an introduction. I hopeit will help to get you started.
+3D printing is a complex subject and this 3h workshop is really an introduction. I hope it will help to get you started.
