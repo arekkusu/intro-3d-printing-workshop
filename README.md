@@ -4,6 +4,15 @@ Material for the "Introduction to 3D printing" workshop.
 
 * TokyoHackerSpace, Sunday, April 15, 2018
 
+## Ressource
+
+[Presentation](https://arekkusu.github.io/intro-3d-printing-workshop/presentation/)
+
+Printer Info:
+* [Printrbot play](printer_info/printbot_play.md)
+* [Thing-O-Matic](printer_info/thing_o_matic.md)
+* [Ultimaker Original](printer_info/ultimaker_original.md)
+
 ## Meetup event info
 
 <https://www.meetup.com/TokyoHackerSpace/events/248056615/>
@@ -20,7 +29,7 @@ Are you curious about 3D printing ? Thinking about something you need for your n
 * FDM printer and materials
 * 3D models, slicing and g-code
 * Software
-* Let's print something 
+* Let's print something
 
 * What to bring: Try to bring a laptop if possible (optional)
 
